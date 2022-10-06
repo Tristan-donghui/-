@@ -1,0 +1,5 @@
+<text class="info" id="zbc" bindtap="f0" data-user-name="user">个人信息确认</text>
+<image src="/image/preview.jpg"></image>
+<text class="info">学号</text>
+<text class="info">姓名</text>
+<text class="info">签到</text>
