@@ -1,1 +1,22 @@
- {"pages": ["about/about"]}
+ { 
+  "pages": ["host/host","logon/logon","first/first","about/about","endl/endl","detail/detail"],
+  "window": {
+    "enablePullDownRefresh": true 
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "主页",
+        "pagePath":"host/host",
+        "iconPath": "image/013.png", 
+        "selectedIconPath": "image/003.png"
+      },
+      {
+        "text": "查询通讯录",
+        "pagePath":"logon/logon",
+        "iconPath": "image/012.png" ,
+        "selectedIconPath": "image/002.png"
+      }
+    ]
+  }
+}

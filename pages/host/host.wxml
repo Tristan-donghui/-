@@ -1,0 +1,10 @@
+<view class="container"> 
+  <view class="btn blue">
+  <image class='about-banner' src="https://i.imgtg.com/2022/10/12/JOQSY.jpg"></image>
+  <text style='font-weight:bold;font-size:60rpx;'>{{lab.name}}</text>
+  </view>
+  
+  <button bindtap="lB" type="primary" url='/detail/detail' hover-class="nav-hover" >查看介绍</button>
+
+
+</view>

@@ -1,0 +1,14 @@
+<view class="container"> 
+  
+  <view class="btn1 blue">
+  <image class='about-banner' src="https://i.imgtg.com/2022/10/12/JMCVp.png"></image>
+  <text style='font-weight:bold;font-size:60rpx;'>单位认证</text>
+  </view>
+
+  <input  password="true" type="text" placeholder="请输入相关的单位密匙" bindinput="getPassword"></input>
+  <view class="btn">
+  <button type="primary" bindtap="loadByAccount">验证</button>
+  </view>
+  <view class="tosign">
+  </view>
+ </view>

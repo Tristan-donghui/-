@@ -1,0 +1,18 @@
+.container{
+  
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+ }
+ text{display: block;}
+ .about-banner{
+   width: 475rpx;
+   height: 475rpx;
+
+ }
+ .nav-hover{
+   color:blue;
+ }

@@ -1,0 +1,9 @@
+<view class="container"> 
+  <view class="btn blue">
+  <text style='font-weight:bold;font-size:60rpx;'>实验室</text>
+  </view>
+  <image class='about-banner' src='{{lab.imagepath}}'></image>
+
+  <text style='font-weight:bold;font-size:60rpx;'>{{lab.name}}</text>
+  <navigator class="bt_connect,hover-class-1 " url='/about/about' open-type="redirect" hover-class="nav-hover" >查看人员名单</navigator>
+</view>

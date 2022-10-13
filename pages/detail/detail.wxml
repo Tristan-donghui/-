@@ -1,0 +1,7 @@
+<view class="container"> 
+  <image class='about-banner' src='{{lab.imagepath}}'></image>
+<view class="text-gray padding" style="text-indent:2.7em;">
+  <text class="nav-hover" style='font-size:50rpx;'>{{lab.content}}</text>
+</view>
+ 
+</view>

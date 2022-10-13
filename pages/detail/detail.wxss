@@ -1,0 +1,17 @@
+.container{
+  
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+ }
+ text{display: block;}
+ .about-banner{
+   width: 775rpx;
+   height: 775rpx;
+
+ }
+ .nav-hover{
+   color:rgb(3, 3, 3);
+ }

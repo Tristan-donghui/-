@@ -1,0 +1,15 @@
+Page({
+  data:{
+    lab:
+    {
+      name:"世界科学研究所",
+      content:"该所是人类技术前沿的科学组织，研究人员是来自世界各地的各个领域的杰出代表，他们汇聚在此革新技术动力，共谋未来发展",
+      imagepath:"https://i.imgtg.com/2022/10/12/JMHe6.gif",
+    }
+  },
+  onShareAppMessage:function(){
+    return{
+      title:"研究所信息"
+    }
+  }
+})
